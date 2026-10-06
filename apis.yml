@@ -1,7 +1,6 @@
 aid: cabra-sports
 name: CABRA Sports
-description: 'CABRA Sports is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'CABRA Sports is a Latino-focused sports fandom platform based in Los Angeles. It aims to capture the true nature of Latino sports fandom by putting fans at the center, offering a vibrant community where culture and sports intersect. The company provides a digital space for fans to engage, share content, and experience sports with a unique cultural flavor.'
 url: https://raw.githubusercontent.com/api-evangelist/cabra-sports/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,12 +11,29 @@ created: '2026-10-06'
 modified: '2026-10-06'
 tags:
 - Company
+- Sports
+- Latino
+- Community
+- Platform
+- LosAngeles
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Home page returns a JavaScript shell with no machine-readable content.
+  evidence:
+    - url: https://cabrasports.com/
+      status: 200
+    - url: https://api.cabrasports.com/
+      status: 200
+  checked: 2026-10-06
 common:
+- type: DomainSecurity
+  url: security/cabra-sports-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://cabrasports.com/
