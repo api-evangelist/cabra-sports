@@ -1,0 +1,6 @@
+generated: '2026-10-06'
+method: probed
+generator: harvest-llms.py
+source: https://cabrasports.com/llms.txt
+bytes: 583
+note: saved verbatim; the provider's own document
